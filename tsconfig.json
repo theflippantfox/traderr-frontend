@@ -1,0 +1,13 @@
+{
+	"compilerOptions": {
+		"module": "es2022",
+		"baseUrl": "./src",
+		"allowSyntheticDefaultImports": true,
+		"paths": {
+			"@lib/*": ["lib/*"],
+			"@assets/*": ["assets/*"]
+		}
+	},
+	"exclude": ["node_modules"],
+	"extends": "@tsconfig/svelte/tsconfig.json"
+}
