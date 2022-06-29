@@ -1,4 +1,4 @@
-import { ApolloClient, HttpLink, InMemoryCache } from '@apollo/client'
+import { ApolloClient, HttpLink, InMemoryCache } from '@apollo/client/core/core.cjs'
 
 const getHeaders = () => {
   if (typeof window !== "undefined") {
